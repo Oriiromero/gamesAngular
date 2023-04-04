@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+nav {
+  line-height: 60px;
+  text-align: center;
+  height: 60px;
+  background-color: rgba(152, 99, 152, 0.329);
+}
+
+a {
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0F0E0E;
+  font-family: "Dosis", sans-serif;
+  transition: 0.8s;
+}
+
+a:hover {
+  color: #FF0075;
+  font-weight: 800;
+}/*# sourceMappingURL=header.component.css.map */

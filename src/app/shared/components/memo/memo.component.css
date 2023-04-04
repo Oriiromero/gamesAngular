@@ -1,0 +1,13 @@
+.card-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card-box img {
+  padding: 8px;
+  width: 100px;
+  margin: 10px;
+  border: 3px solid #D864A9;
+  border-radius: 10px;
+  background-color: #FFC4E1;
+}/*# sourceMappingURL=memo.component.css.map */

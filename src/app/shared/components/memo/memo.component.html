@@ -1,0 +1,12 @@
+<div [ngClass]="'card-box'">
+    <div *ngFor="let card of cards">
+
+        <img  *ngIf="card.selected == true" src="{{card.img}}" alt="">
+
+        <img *ngIf="card.completed == true" src="/assets/tick.svg" alt="">
+
+        <img (click)="checkCard(card)" *ngIf="card.selected == false && card.completed == false"  src="/assets/universe.svg" alt="">
+    </div>
+</div>
+
+ 
