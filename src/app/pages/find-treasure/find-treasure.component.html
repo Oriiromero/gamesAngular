@@ -1,0 +1,25 @@
+<div>
+    <div>
+        <h3> Find the hidden treasure! </h3>
+        <h5> Attempts: {{count}}</h5>
+    </div>
+    <div>
+        <h5> Choose your grid size </h5>
+        <input type="text" [(ngModel)]="rows" placeholder="Number of rows">
+        <input type="text" [(ngModel)]="cols"  placeholder="Number of columns">
+        <button (click)="createGrid()"> {{buttonText}} </button>
+    </div>
+    <div>
+        <table>
+            <tr *ngFor="let row of arrayNums">
+                <td *ngFor="let card of row">
+                     <img (click)="showImage(card)" *ngIf="card.showBack == true" src="{{card.image}}"> 
+                     <img *ngIf="card.isSelected == true" src="/assets/skull.png" alt="">
+                     <img *ngIf="card.foundTreasure == true" src="/assets/chest.png" alt="">
+                </td>
+            </tr>
+            
+        </table>
+    </div>
+    
+</div>

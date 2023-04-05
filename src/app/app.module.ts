@@ -7,6 +7,8 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MemoComponent } from './shared/components/memo/memo.component';
 import { WhackAMoleComponent } from './pages/whack-a-mole/whack-a-mole.component';
+import { FormsModule } from '@angular/forms';
+import { FindTreasureComponent } from './pages/find-treasure/find-treasure.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +16,13 @@ import { WhackAMoleComponent } from './pages/whack-a-mole/whack-a-mole.component
     HomePageComponent,
     HeaderComponent,
     MemoComponent,
-    WhackAMoleComponent
+    WhackAMoleComponent,
+    FindTreasureComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
