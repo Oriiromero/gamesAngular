@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+.container {
+    background-color: #0F0E0E;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-text {
+        font-family: 'Dosis', sans-serif;
+        color: #FEFCF3;
+        letter-spacing: 2px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        h3, h5 {
+            margin: 5px;
+        }
+    }
+
+    &-inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &_box {
+            display: flex;
+            
+            input {
+                margin: 8px 15px;
+                border-radius: 10px;
+                width: 200px;
+                height: 25px;
+                padding: 5px;
+                border: none;
+                background-color: #DDDDDD;
+                box-shadow: 1px 1px 10px 5px #E4E4E4;   
+                font-family: 'Dosis', sans-serif;
+                color: #0F0E0E;
+                font-weight: 600;
+                letter-spacing: 2px;
+            }
+
+            input:focus {
+                outline: solid #E4E4E4;
+            }
+        }
+
+        button {
+            margin: 18px;
+            border-radius: 10px;
+            width: 90px;
+            height: 30px;
+            padding: 5px;
+            border: none;
+            background-color: #c6e5e3;
+            box-shadow: 1px 1px 10px 5px #95d0dd;   
+            font-family: 'Dosis', sans-serif;
+            color: #0F0E0E;
+            font-weight: 600;
+            letter-spacing: 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #b8a6d7;
+            box-shadow: 1px 1px 10px 5px #d6c7ea; 
+        }
+
+        h5 {
+            font-family: 'Dosis', sans-serif;
+            color: #FEFCF3;
+            letter-spacing: 2px;
+            margin: 15px 5px;
+        }
+    }
+
+    &-grid {
+       
+        img {
+            width: 90px;
+            height: 90px;
+            cursor: pointer;
+        }
+    }
+}

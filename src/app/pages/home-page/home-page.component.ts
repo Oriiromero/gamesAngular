@@ -31,6 +31,27 @@ export class HomePageComponent {
       completed: false
     },
     {
+      id: 4,
+      name: 'mercury',
+      img: 'assets/mercury.svg',
+      selected: false,
+      completed: false
+    },
+    {
+      id: 5,
+      name: 'saturn',
+      img: 'assets/saturn.svg',
+      selected: false,
+      completed: false
+    },
+    {
+      id: 6,
+      name: 'saturn',
+      img: 'assets/saturn.svg',
+      selected: false,
+      completed: false
+    },
+    {
       id: 7,
       name: 'earth',
       img: 'assets/earth.svg',
@@ -48,6 +69,27 @@ export class HomePageComponent {
       id: 9,
       name: 'mars',
       img: 'assets/mars.svg',
+      selected: false,
+      completed: false
+    },
+    {
+      id: 10,
+      name: 'mercury',
+      img: 'assets/mercury.svg',
+      selected: false,
+      completed: false
+    },
+    {
+      id: 11,
+      name: 'uranus',
+      img: 'assets/uranus.svg',
+      selected: false,
+      completed: false
+    },
+    {
+      id: 12,
+      name: 'uranus',
+      img: 'assets/uranus.svg',
       selected: false,
       completed: false
     },

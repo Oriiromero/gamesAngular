@@ -1,15 +1,17 @@
-<div>
-    <div>
+<div [ngClass]="'container'">
+    <div [ngClass]="'container-text'">
         <h3> Find the hidden treasure! </h3>
         <h5> Attempts: {{count}}</h5>
     </div>
-    <div>
+    <div [ngClass]="'container-inputs'">
         <h5> Choose your grid size </h5>
-        <input type="text" [(ngModel)]="rows" placeholder="Number of rows">
-        <input type="text" [(ngModel)]="cols"  placeholder="Number of columns">
+        <div [ngClass]="'container-inputs_box'">
+            <input type="text" [(ngModel)]="rows" placeholder="Number of rows">
+            <input type="text" [(ngModel)]="cols"  placeholder="Number of columns">
+        </div>
         <button (click)="createGrid()"> {{buttonText}} </button>
     </div>
-    <div>
+    <div [ngClass]="'container-grid'">
         <table>
             <tr *ngFor="let row of arrayNums">
                 <td *ngFor="let card of row">
