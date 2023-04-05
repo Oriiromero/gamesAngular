@@ -7,6 +7,7 @@ import { IPlanet } from '../../shared/interfaces/card.interface';
   styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent {
+  
   planetsNormal: IPlanet[] = [
     {
       id: 1,

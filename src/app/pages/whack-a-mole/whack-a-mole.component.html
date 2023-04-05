@@ -1,1 +1,18 @@
-<p>whack-a-mole works!</p>
+<div [ngClass]="'container'">
+    <div [ngClass]="'text-box'">
+        <h1> Whack a mole! </h1>
+    
+        <h2> Your Score: {{points}} </h2>
+        
+        <h2> Seconds left: </h2>
+        <h2> {{gameTime}} </h2>
+    </div>
+    <div [ngClass]="'box'">
+        <div *ngFor="let card of cards" [ngClass]="'box-card'">
+            <img *ngIf="card.isTarget === false" [ngClass]="'box-card-bg'" src="/assets/bg.png" alt="bg">
+            <img (click)="sumPoint()" *ngIf="card.isTarget === true" [ngClass]="'box-card-mole'" src="{{card.image}}" alt="mole">
+        </div>  
+    </div>
+</div>
+
+
