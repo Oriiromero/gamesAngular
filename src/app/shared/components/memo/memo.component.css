@@ -1,13 +1,15 @@
 .card-box {
+  padding-top: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .card-box img {
   padding: 8px;
-  width: 100px;
+  width: 200px;
   margin: 10px;
   border: 3px solid #D864A9;
   border-radius: 10px;
   background-color: #FFC4E1;
+  box-shadow: 1px 1px 10px 5px #D864A9;
 }/*# sourceMappingURL=memo.component.css.map */

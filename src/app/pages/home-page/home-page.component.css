@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+.container {
+  background-color: #0F0E0E;
+  min-height: 100vh;
+}
+
 p {
   color: #0F0E0E;
   font-family: "Dosis", sans-serif;

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+.container {
+  background-color: #0F0E0E;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-text {
+  font-family: "Dosis", sans-serif;
+  color: #FEFCF3;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-text h3, .container-text h5 {
+  margin: 5px;
+}
+.container-inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-inputs_box {
+  display: flex;
+}
+.container-inputs_box input {
+  margin: 8px 15px;
+  border-radius: 10px;
+  width: 200px;
+  height: 25px;
+  padding: 5px;
+  border: none;
+  background-color: #DDDDDD;
+  box-shadow: 1px 1px 10px 5px #E4E4E4;
+  font-family: "Dosis", sans-serif;
+  color: #0F0E0E;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.container-inputs_box input:focus {
+  outline: solid #E4E4E4;
+}
+.container-inputs button {
+  margin: 18px;
+  border-radius: 10px;
+  width: 90px;
+  height: 30px;
+  padding: 5px;
+  border: none;
+  background-color: #c6e5e3;
+  box-shadow: 1px 1px 10px 5px #95d0dd;
+  font-family: "Dosis", sans-serif;
+  color: #0F0E0E;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.container-inputs button:hover {
+  background-color: #b8a6d7;
+  box-shadow: 1px 1px 10px 5px #d6c7ea;
+}
+.container-inputs h5 {
+  font-family: "Dosis", sans-serif;
+  color: #FEFCF3;
+  letter-spacing: 2px;
+  margin: 15px 5px;
+}
+.container-grid img {
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
+}/*# sourceMappingURL=find-treasure.component.css.map */

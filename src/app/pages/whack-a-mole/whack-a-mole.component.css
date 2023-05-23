@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0F0E0E;
+  cursor: url("/assets/mazo.png"), auto;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: "Dosis", sans-serif;
+  color: #FEFCF3;
+  letter-spacing: 2px;
+}
+.text-box h1, .text-box h2 {
+  margin: 2px;
+}
+
+.box {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  justify-items: center;
+  justify-content: center;
+  gap: 5px 5px;
+  width: 50%;
+  margin: 25px 0;
+}
+.box-card {
+  background-image: url("/assets/bg.png");
+  background-size: cover;
+  border: 4px solid #BFDB38;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+.box-card-bg {
+  width: 100%;
+  height: 100%;
+}
+.box-card-mole {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=whack-a-mole.component.css.map */
